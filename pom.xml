@@ -6,7 +6,11 @@
 
     <groupId>org.santaoracle</groupId>
     <artifactId>design_pattern</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>dp_13_01</module>
+    </modules>
 
     <properties>
         <!--project-->
@@ -23,6 +27,12 @@
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
             <version>1.18.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
         </dependency>
 
         <!-- jackson start-->
