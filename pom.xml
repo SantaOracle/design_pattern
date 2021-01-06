@@ -11,6 +11,7 @@
     <modules>
         <module>dp_13_01</module>
         <module>dp_13_02</module>
+        <module>dp_13_03</module>
     </modules>
 
     <properties>
